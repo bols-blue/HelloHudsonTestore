@@ -17,5 +17,8 @@ public class HelloHudsonTest extends ActivityInstrumentationTestCase2<HelloHudso
     public HelloHudsonTest() {
         super("com.example.hellohudson", HelloHudson.class);
     }
+    public testSample(){
+	HelloHudson tmp = = getActivity();
+	}
 
 }
